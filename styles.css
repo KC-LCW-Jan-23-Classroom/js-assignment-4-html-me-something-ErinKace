@@ -1,1 +1,14 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    font-display: black;
+}
+
+p {
+    margin: 20px;
+    padding: 10px;
+}
+
+#mainHeading {
+    color: red;
+}

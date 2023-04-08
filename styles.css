@@ -1,7 +1,23 @@
 /* Write your CSS here! */
 body {
     margin: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-display: black;
+}
+
+header {
+    background-color: #00adef;
+    margin: 0px;
+    padding: 15px;
+    height: 150px;
+    border-bottom: #000;
+}
+
+header h1 {
+    color: #FFF;
+    font-size: 40pt;
+    font-kerning:;
+    float: right;
 }
 
 p {
@@ -9,6 +25,14 @@ p {
     padding: 10px;
 }
 
+.logo {
+    height: 100%;
+}
+
 #mainHeading {
     color: red;
+}
+
+.funParagraph {
+    color: green;
 }

@@ -2,31 +2,55 @@
 body {
     margin: 8px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-display: black;
+    display: block;
 }
 
 header {
     background-color: #00adef;
+    height: auto;
     margin: 0px;
     padding: 15px;
-    height: 150px;
     border-bottom: #000;
 }
 
 header h1 {
     color: #FFF;
-    font-size: 40pt;
-    font-kerning:;
+    font-size: 60px;
+    font-kerning:normal;
     float: right;
 }
 
+h2 {
+    font-size: 40px;
+    padding: 15px;
+}
+
+h3 {
+    font-size: 30px;
+    padding: 15px;
+}
+
 p {
-    margin: 20px;
-    padding: 10px;
+    padding: 15px;
+}
+
+a {
+    color: #00adef;
+    font-style: bold;
+}
+
+footer {
+    height: 60px;
+    background-color: #000;
+    color: #FFF;
 }
 
 .logo {
-    height: 100%;
+    height: 100px;
+}
+
+.littleImage {
+    width: 300px;
 }
 
 #mainHeading {
@@ -35,4 +59,18 @@ p {
 
 .funParagraph {
     color: green;
+}
+
+.floatRight {
+    width: 40%;
+    float: right;
+
+}
+.floatLeft {
+    width: 60%;
+    float: left;
+}
+
+#clearFix {
+    clear: both;
 }
